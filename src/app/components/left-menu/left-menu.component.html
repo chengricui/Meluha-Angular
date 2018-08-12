@@ -1,0 +1,28 @@
+<div class="col-xs-2 left-bg d-table-col d-table-left-col" >
+  <ul class="nav nav-pills nav-stacked">
+    <li class="{{clickedOrganization? 'active': ''}}" (click)="isClickedOrgan()">
+      <a>
+        <p class="menu-inline">organization master <img src="../../../assets/images/organisation.png" alt="meluha"></p>
+        <p class="header-line" style=""><span class="head-inline">click here to edit</span></p>
+      </a>
+    </li>
+    <li class="{{clickedCurriculum? 'active': ''}}" (click)="isClickedCurriculum()">
+      <a>
+        <p class="menu-inline">Curriculum master <img src="../../../assets/images/curriculum.png" alt="meluha"></p>
+        <p class="header-line" style=""><span class="head-inline">click here to edit</span></p>
+      </a>
+    </li>
+    <li class="{{clickedContent? 'active': ''}}" (click)="isClickedContent()">
+      <a>
+        <p class="menu-inline">Content master <img src="../../../assets/images/content.png" alt="meluha"></p>
+        <p class="header-line" style=""><span class="head-inline">click here to edit</span></p>
+      </a>
+    </li>
+    <li class="{{clickedPackage? 'active': ''}}" (click)="isClickedPackage()">
+      <a >
+        <p class="menu-inline">Package master <img src="../../../assets/images/package.png" alt="meluha"></p>
+        <p class="header-line" style=""><span class="head-inline">click here to edit</span></p>
+      </a>
+    </li>
+  </ul>
+</div>

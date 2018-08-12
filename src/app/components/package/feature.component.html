@@ -1,0 +1,225 @@
+<div class="col-xs-10 d-table-col">
+  <div class="package-page">
+    <div class="tab-content" style="padding-top: 50px;">
+      <div id="home" class="tab-pane fade in active">
+        <div class="buttons-all-done">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="buttons-all">
+                <div>
+                  <p-dropdown  [options]="cities" [style]="{}" [(ngModel)]="selectedCity" placeholder="Board" optionLabel="name" [showClear]="true">
+                  </p-dropdown>
+                </div>
+                <div class="button2">
+                  <div class="btn-group">
+                    <button type="button" class="btn">Class</button>
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">class 11</a></li>
+                      <li><a href="#">class 12</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="button3">
+                  <div class="btn-group">
+                    <button type="button" class="btn">Group</button>
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">MPC</a></li>
+                      <li><a href="#">BiPC</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="button3">
+                  <div class="btn-group">
+                    <button type="button" class="btn">Subject</button>
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Maths</a></li>
+                      <li><a href="#">Physics</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="divide-package">
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+              <div class="left-package">
+                <div class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown">Zoology<span class="caret"></span>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><input type="checkbox" class="form-check-input" value="" id="maths"> Maths</a>
+                    <a class="dropdown-item" href="#"><input type="checkbox" class="form-check-input" value="" id="physics"> Physics</a>
+                    <a class="dropdown-item" href="#"><input type="checkbox" class="form-check-input" value="" id="chemistry"> Chemistry</a>
+                  </div>
+                </div>
+                <div class="inner-check">
+                  <div class="maths hide">
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="maths" value="Chapter 1" name="chapter">Chapter 1</label>
+                    </div><div class="checkbox">
+                    <label><input type="checkbox" class="trans" data-subject="maths" value="Chapter 2" name="chapter">Chapter 2</label>
+                  </div><div class="checkbox">
+                    <label><input type="checkbox" class="trans" data-subject="maths" value="Chapter 3" name="chapter">Chapter 3</label>
+                  </div><div class="checkbox">
+                    <label><input type="checkbox" class="trans" data-subject="maths" value="Chapter 4" name="chapter">Chapter 4</label>
+                  </div><div class="checkbox">
+                    <label><input type="checkbox" class="trans" data-subject="maths" value="Chapter 5" name="chapter">Chapter 5</label>
+                  </div><div class="checkbox">
+                    <label><input type="checkbox" class="trans" data-subject="maths" value="Chapter 6" name="chapter">Chapter 6</label>
+                  </div>
+                  </div>
+                  <div class="chemistry hide">
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="chemistry" value="Chapter 7" name="chapter">Chapter 7</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="chemistry" value="Chapter 8" name="chapter">Chapter 8</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="chemistry" value="Chapter 9" name="chapter">Chapter 9</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="chemistry" value="Chapter 9" name="chapter">Chapter 10</label>
+                    </div>
+                  </div>
+                  <div class="physics hide">
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="physics" value="Chapter 11" name="chapter">Chapter 11</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="physics" value="Chapter 12" name="chapter">Chapter 12</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="physics" value="Chapter 13" name="chapter">Chapter 13</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="physics" value="Chapter 14" name="chapter">Chapter 14</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="physics" value="Chapter 15" name="chapter">Chapter 15</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="physics" value="Chapter 16" name="chapter">Chapter 16</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="physics" value="Chapter 17" name="chapter">Chapter 17</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" class="trans" data-subject="physics" value="Chapter 18" name="chapter">Chapter 18</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner-anchors">
+                  <a href="#" class="proceed" id="proceed">Proceed</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9">
+              <div class="right-pane-text">
+                <div class="right-package-heading">
+                  <div class="subject1">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-6">
+                        <div class="subject-input1">
+                          <input type="text" placeholder="Package Name">
+                        </div>
+                        <div class="inline-buttons">
+                          <div class="edit-anchor">
+                            <a href="#">Edit</a>
+                          </div>
+                          <div class="save-anchor">
+                            <a href="#">Save</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-package">
+                  <div class="right-inner-package">
+                    <table class="table table-striped" border="0" style="width: 100%;">
+                      <thead>
+                      <tr>
+                        <th>S.NO</th>
+                        <th>Subject</th>
+                        <th>Chapter</th>
+                        <th>Topic</th>
+                      </tr>
+                      </thead>
+                      <tbody id="tboo">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="right-pane-text">
+                <div class="right-package-heading">
+                  <div class="subject1">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-12">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                              <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Additional Features
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                              <div class="panel-body">
+                                <div class="divide-listing">
+                                  <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                      <div class="listing-status">
+                                        <p>Discussion Boards <input checked data-toggle="toggle" data-on="Active" data-off="In-Active" data-onstyle="success" data-offstyle="danger" type="checkbox"></p>
+                                        <p>Discussion Boards <input checked data-toggle="toggle" data-on="Active" data-off="In-Active" data-onstyle="success" data-offstyle="danger" type="checkbox"></p>
+                                        <p>Discussion Boards <input checked data-toggle="toggle" data-on="Active" data-off="In-Active" data-onstyle="success" data-offstyle="danger" type="checkbox"></p>
+                                        <p>Discussion Boards <input checked data-toggle="toggle" data-on="Active" data-off="In-Active" data-onstyle="success" data-offstyle="danger" type="checkbox"></p>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                      <div class="listing-status">
+                                        <p>Discussion Boards <input checked data-toggle="toggle" data-on="Active" data-off="In-Active" data-onstyle="success" data-offstyle="danger" type="checkbox"></p>
+                                        <p>Discussion Boards <input checked data-toggle="toggle" data-on="Active" data-off="In-Active" data-onstyle="success" data-offstyle="danger" type="checkbox"></p>
+                                        <p>Discussion Boards <input checked data-toggle="toggle" data-on="Active" data-off="In-Active" data-onstyle="success" data-offstyle="danger" type="checkbox"></p>
+                                        <p>Discussion Boards <input checked data-toggle="toggle" data-on="Active" data-off="In-Active" data-onstyle="success" data-offstyle="danger" type="checkbox"></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="create-package">
+                <a href="">Create a Package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

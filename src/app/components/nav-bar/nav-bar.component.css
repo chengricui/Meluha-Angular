@@ -1,0 +1,12 @@
+
+.container-fluid{
+  /*background-color: #161E2B;*/
+  width:100%;
+}
+button.navbar-btn{
+  float: right;
+  margin-top: 10px;
+}
+.navbar-inverse{
+  margin: 0;
+}

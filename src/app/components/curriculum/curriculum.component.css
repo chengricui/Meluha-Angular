@@ -1,0 +1,86 @@
+button{
+  width: 80px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+}
+button.btn.btn-primary.btn-sm.btn-right.create {
+  width:160px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 40px;
+}
+input.form-control{
+  background-color: white;
+}
+.ui-dropdown {
+  background-color:black;
+  width: 130px;
+  height: 35px;
+}
+.ui-dropdown-label  {
+  color:white;
+  background-color: black;
+  height: 35px;
+  padding-left: 10px;
+  padding-top: 8px;
+  alignment: center;
+}
+.ui-state-default {
+  background-color: black;
+  color: white;
+  border: 0px;
+}
+
+.ui-dropdown-label:hover{
+  color:white;
+}
+.ui-dropdown.ui-state-focus, .ui-multiselect.ui-state-focus {
+  box-shadow: gray;
+}
+.ui-dropdown-item   {
+  color:black;
+}
+.ui-accordion .ui-accordion-header {
+  background: #008000;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.ui-accordion .ui-accordion-header a {
+  font-size: 18px;
+  text-decoration: none;
+}
+.ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover {
+  border-color: #c0c0c0;
+  background-color: #009900;
+  color: white; }
+.ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover a {
+  color: white; }
+
+.ui-accordion .ui-accordion-header {
+  background: #009900;
+  border-top: 1px solid #d9d9d9; }
+.ui-accordion .ui-accordion-header a {
+  color: white; }
+.ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover {
+  background: #008000; }
+.ui-accordion .ui-accordion-header.ui-state-active {
+  background: #009900;
+  border-left-color: #d9d9d9;
+  border-right-color: #d9d9d9;
+  border-bottom-color: #d9d9d9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+.ui-accordion .ui-accordion-content {
+  border: 1px #d9d9d9 solid;
+background-color: #F1F1F1}
+div.row.drop {
+  width: 200px
+}
+
+
